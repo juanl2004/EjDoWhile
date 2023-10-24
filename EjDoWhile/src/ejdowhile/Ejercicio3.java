@@ -12,17 +12,18 @@ public class Ejercicio3 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("El ejercicio consiste en intoducir un número y sumar los anteriores incluido el introducido por el usuario");
 		System.out.println("Introduce un número -->");
 		num = sc.nextInt();
 		
 		do {
 		
-		System.out.println("" + suma);
-		 suma =+ contador;
-		 contador++;
+			suma += contador;
+			contador++;
 				
 		} while (contador<=num);
 
+		System.out.println("El resultado de la suma es: " + suma);
 	}
-
+	
 }
